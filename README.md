@@ -60,5 +60,4 @@ python inference.py
 
 ---
 
-This project allows for efficient fine-tuning of a large language model for **medical domain tasks**. Happy coding! 🚀
 
