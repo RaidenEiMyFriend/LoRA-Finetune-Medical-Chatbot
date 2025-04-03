@@ -1,0 +1,8 @@
+transformers
+datasets
+trl
+huggingface_hub
+bitsandbytes
+wandb
+kaggle
+peft
