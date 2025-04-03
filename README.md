@@ -24,7 +24,13 @@ python main.py
 - ✅ Apply **LoRA fine-tuning**
 - ✅ Save the trained model in `Medical/final/`
 
-### 🔹 3. Resume Training from a Checkpoint
+### 🔹 3. Monitor Training Progress
+Training metrics such as **mean token accuracy** and **loss** are monitored using **Weights & Biases (wandb)**. Below are the visualizations of the training process:
+
+#### Train Accuracy & Loss Plots
+![Training Metrics](results/image1.png)
+
+### 🔹 4. Resume Training from a Checkpoint
 If you previously trained the model and want to continue training, run:
 
 ```bash
@@ -36,7 +42,7 @@ python train_from_checkpoint.py
 - ✅ Resume training with the same dataset and parameters
 - ✅ Save the updated model to the same directory
 
-### 🔹 4. Run Inference (Chat with the Model)
+### 🔹 5. Run Inference (Chat with the Model)
 Once the model is trained, you can test it by running:
 
 ```bash
@@ -49,5 +55,10 @@ python inference.py
 - ✅ Generate a response using the chatbot
 - ✅ Print the result to the console
 
+#### Example Inference
+![Inference Example](results/image2.png)
+
 ---
+
+This project allows for efficient fine-tuning of a large language model for **medical domain tasks**. Happy coding! 🚀
 
